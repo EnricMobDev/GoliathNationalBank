@@ -123,6 +123,7 @@
 				0C5174F720BAA8E4006E6E1B /* LaunchScreen.storyboard */,
 				0C5174FA20BAA8E4006E6E1B /* Info.plist */,
 				0C5174F220BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodeld */,
+				0C51751C20BAAC1D006E6E1B /* GoliathCore */,
 			);
 			path = GoliathNationalBank;
 			sourceTree = "<group>";
@@ -143,6 +144,117 @@
 				0C51751020BAA8E5006E6E1B /* Info.plist */,
 			);
 			path = GoliathNationalBankUITests;
+			sourceTree = "<group>";
+		};
+		0C51751C20BAAC1D006E6E1B /* GoliathCore */ = {
+			isa = PBXGroup;
+			children = (
+				0C51751D20BAAC45006E6E1B /* Utils */,
+				0C51751E20BAAC52006E6E1B /* WebServices */,
+				0C51751F20BAAC64006E6E1B /* Views */,
+			);
+			path = GoliathCore;
+			sourceTree = "<group>";
+		};
+		0C51751D20BAAC45006E6E1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0C51751E20BAAC52006E6E1B /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				0C51752020BAAC8E006E6E1B /* Controller */,
+				0C51752120BAAC9D006E6E1B /* Model */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		0C51751F20BAAC64006E6E1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C51752920BAAD3C006E6E1B /* Models */,
+				0C51752820BAAD2D006E6E1B /* Protocols */,
+				0C51752720BAAD1D006E6E1B /* Drawers */,
+				0C51752620BAAD12006E6E1B /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C51752020BAAC8E006E6E1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C51752320BAACCE006E6E1B /* Currencies */,
+				0C51752220BAACB9006E6E1B /* Transactions */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C51752120BAAC9D006E6E1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C51752520BAACEF006E6E1B /* Currency */,
+				0C51752420BAACE5006E6E1B /* Transaction */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C51752220BAACB9006E6E1B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		0C51752320BAACCE006E6E1B /* Currencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Currencies;
+			sourceTree = "<group>";
+		};
+		0C51752420BAACE5006E6E1B /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		0C51752520BAACEF006E6E1B /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		0C51752620BAAD12006E6E1B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0C51752720BAAD1D006E6E1B /* Drawers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Drawers;
+			sourceTree = "<group>";
+		};
+		0C51752820BAAD2D006E6E1B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0C51752920BAAD3C006E6E1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		355D01462E00A9672424293D /* Frameworks */ = {
