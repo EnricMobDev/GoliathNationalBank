@@ -81,6 +81,13 @@ extension GoliathViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+//MARK: - TODO:
+
+//First of all thanks for the opportunity.
+//I do this test in 3 hours.
+//I need to do a lot of thigs for example: Take the same name transactions and add the result.
+//I need to do a correct rate with the tipes of currencies
+//I need to create other view to before the list for only show the transaccion if the costumer wants
 
 
 
