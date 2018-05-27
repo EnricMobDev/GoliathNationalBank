@@ -14,4 +14,6 @@ class Utils {
     //MARK: - Constants
     static let TRANSACTION_URL = "https://quiet-stone-2094.herokuapp.com/transactions.json"
     static let RATES_URL = "http://quiet-stone-2094.herokuapp.com/rates.json"
+    static let ESTIMATED_ROW_HEIGHT: CGFloat = 80
+
 }
