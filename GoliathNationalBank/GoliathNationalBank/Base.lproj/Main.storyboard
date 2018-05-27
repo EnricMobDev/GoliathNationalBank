@@ -1,21 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Goliath View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GoliathViewController" customModule="GoliathNationalBank" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HAG-UM-RDU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionCell" rowHeight="123" id="ZmX-Da-MVU" customClass="DetailTransactionCell" customModule="Goliath" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="123"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZmX-Da-MVU" id="HAS-pi-Fwx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="122.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHc-Yg-r2J">
+                                                    <rect key="frame" x="35" y="31" width="98" height="22"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Transaction : ">
+                                                            <attributes>
+                                                                <font key="NSFont" size="18" name="BodoniSvtyTwoOSITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sh-he-TW9">
+                                                    <rect key="frame" x="35" y="58" width="65" height="21"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Amount :">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="BodoniSvtyTwoITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9W-5I-B5G">
+                                                    <rect key="frame" x="35" y="84" width="71.5" height="21"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Currency :">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="BodoniSvtyTwoITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHT-vW-ttC">
+                                                    <rect key="frame" x="290" y="31" width="50" height="21"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="A4553">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="BodoniSvtyTwoITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBY-5V-sUQ">
+                                                    <rect key="frame" x="305.5" y="57" width="34.5" height="23"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="19,3">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="BodoniSvtyTwoITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxm-F1-mTB">
+                                                    <rect key="frame" x="308" y="85" width="32" height="20.5"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="EUR">
+                                                            <attributes>
+                                                                <font key="NSFont" size="17" name="BodoniSvtyTwoITCTT-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Pxm-F1-mTB" secondAttribute="trailing" constant="20" id="3Yt-fu-1EB"/>
+                                                <constraint firstItem="xBY-5V-sUQ" firstAttribute="top" secondItem="WHT-vW-ttC" secondAttribute="bottom" constant="5" id="9OS-nZ-oAk"/>
+                                                <constraint firstItem="Pxm-F1-mTB" firstAttribute="top" secondItem="xBY-5V-sUQ" secondAttribute="bottom" constant="5" id="Edw-br-CZn"/>
+                                                <constraint firstItem="8Sh-he-TW9" firstAttribute="top" secondItem="fHc-Yg-r2J" secondAttribute="bottom" constant="5" id="K51-uD-mh8"/>
+                                                <constraint firstItem="fHc-Yg-r2J" firstAttribute="top" secondItem="HAS-pi-Fwx" secondAttribute="topMargin" constant="20" id="RwK-Gi-xfH"/>
+                                                <constraint firstItem="fHc-Yg-r2J" firstAttribute="leading" secondItem="HAS-pi-Fwx" secondAttribute="leadingMargin" constant="20" id="TCB-2I-LCu"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Pxm-F1-mTB" secondAttribute="bottom" constant="6.5" id="Utg-zW-bHL"/>
+                                                <constraint firstItem="8Sh-he-TW9" firstAttribute="leading" secondItem="HAS-pi-Fwx" secondAttribute="leadingMargin" constant="20" id="aHP-6M-PRo"/>
+                                                <constraint firstItem="B9W-5I-B5G" firstAttribute="leading" secondItem="HAS-pi-Fwx" secondAttribute="leadingMargin" constant="20" id="dxE-92-cdH"/>
+                                                <constraint firstItem="B9W-5I-B5G" firstAttribute="top" secondItem="8Sh-he-TW9" secondAttribute="bottom" constant="5" id="eHW-De-OWh"/>
+                                                <constraint firstItem="Pxm-F1-mTB" firstAttribute="centerY" secondItem="B9W-5I-B5G" secondAttribute="centerY" id="hbg-Xv-24V"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xBY-5V-sUQ" secondAttribute="trailing" constant="20" id="lmE-pJ-QjR"/>
+                                                <constraint firstItem="WHT-vW-ttC" firstAttribute="centerY" secondItem="fHc-Yg-r2J" secondAttribute="centerY" id="lvg-qa-lZ0"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="WHT-vW-ttC" secondAttribute="trailing" constant="20" id="ngC-cW-TQC"/>
+                                                <constraint firstItem="xBY-5V-sUQ" firstAttribute="centerY" secondItem="8Sh-he-TW9" secondAttribute="centerY" id="qgd-lS-OnK"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="B9W-5I-B5G" secondAttribute="bottom" constant="7" id="tfO-YN-Mll"/>
+                                                <constraint firstItem="WHT-vW-ttC" firstAttribute="top" secondItem="HAS-pi-Fwx" secondAttribute="topMargin" constant="20" id="z4g-5U-DbH"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="amountLabel" destination="xBY-5V-sUQ" id="biI-79-0HC"/>
+                                            <outlet property="currencyLabel" destination="Pxm-F1-mTB" id="t7G-47-mlE"/>
+                                            <outlet property="transactionLabel" destination="WHT-vW-ttC" id="VjH-p2-5hI"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="transactionTable" destination="HAG-UM-RDU" id="CO0-Xp-tVG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

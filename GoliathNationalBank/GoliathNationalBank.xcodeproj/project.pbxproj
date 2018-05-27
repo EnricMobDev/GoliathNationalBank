@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C5174EC20BAA8E4006E6E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5174EB20BAA8E4006E6E1B /* AppDelegate.swift */; };
-		0C5174EE20BAA8E4006E6E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5174ED20BAA8E4006E6E1B /* ViewController.swift */; };
+		0C5174EE20BAA8E4006E6E1B /* GoliathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5174ED20BAA8E4006E6E1B /* GoliathViewController.swift */; };
 		0C5174F120BAA8E4006E6E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5174EF20BAA8E4006E6E1B /* Main.storyboard */; };
 		0C5174F420BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C5174F220BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodeld */; };
 		0C5174F620BAA8E4006E6E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5174F520BAA8E4006E6E1B /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		0C5174E820BAA8E4006E6E1B /* GoliathNationalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoliathNationalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5174EB20BAA8E4006E6E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C5174ED20BAA8E4006E6E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C5174ED20BAA8E4006E6E1B /* GoliathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathViewController.swift; sourceTree = "<group>"; };
 		0C5174F020BAA8E4006E6E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C5174F320BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoliathNationalBank.xcdatamodel; sourceTree = "<group>"; };
 		0C5174F520BAA8E4006E6E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				0C5174EB20BAA8E4006E6E1B /* AppDelegate.swift */,
-				0C5174ED20BAA8E4006E6E1B /* ViewController.swift */,
+				0C5174ED20BAA8E4006E6E1B /* GoliathViewController.swift */,
 				0C5174EF20BAA8E4006E6E1B /* Main.storyboard */,
 				0C5174F520BAA8E4006E6E1B /* Assets.xcassets */,
 				0C5174F720BAA8E4006E6E1B /* LaunchScreen.storyboard */,
@@ -574,7 +574,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5174F420BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodeld in Sources */,
-				0C5174EE20BAA8E4006E6E1B /* ViewController.swift in Sources */,
+				0C5174EE20BAA8E4006E6E1B /* GoliathViewController.swift in Sources */,
 				0C5174EC20BAA8E4006E6E1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
