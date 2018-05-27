@@ -15,6 +15,9 @@
 		0C5174F920BAA8E4006E6E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5174F720BAA8E4006E6E1B /* LaunchScreen.storyboard */; };
 		0C51750420BAA8E4006E6E1B /* GoliathNationalBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51750320BAA8E4006E6E1B /* GoliathNationalBankTests.swift */; };
 		0C51750F20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51750E20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift */; };
+		69509DE41281637D8A8FFCDC /* Pods_GoliathNationalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1269791E12A2D6B4D6AF58 /* Pods_GoliathNationalBankTests.framework */; };
+		8A685F6098C72DCDD4803BFC /* Pods_GoliathNationalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CD67D628E647CF624D1515 /* Pods_GoliathNationalBankUITests.framework */; };
+		A304ABFEB64ADCB86746C802 /* Pods_GoliathNationalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31D5D5C366ED158F95F6B59 /* Pods_GoliathNationalBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		0C51750A20BAA8E4006E6E1B /* GoliathNationalBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoliathNationalBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C51750E20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathNationalBankUITests.swift; sourceTree = "<group>"; };
 		0C51751020BAA8E5006E6E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CD67D628E647CF624D1515 /* Pods_GoliathNationalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3984824E597656C4903F1017 /* Pods-GoliathNationalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBankUITests/Pods-GoliathNationalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C709A743753B26AAE0084B2 /* Pods-GoliathNationalBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA2F8682AE4610FF899907A /* Pods-GoliathNationalBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E1269791E12A2D6B4D6AF58 /* Pods_GoliathNationalBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31D5D5C366ED158F95F6B59 /* Pods_GoliathNationalBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFCA920F6B97F6CF53A5FB6 /* Pods-GoliathNationalBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9EF4EF8C9DD1817FD3ECA25 /* Pods-GoliathNationalBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBankUITests/Pods-GoliathNationalBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC5EBBE633CCCD4661613A5C /* Pods-GoliathNationalBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A304ABFEB64ADCB86746C802 /* Pods_GoliathNationalBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69509DE41281637D8A8FFCDC /* Pods_GoliathNationalBankTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A685F6098C72DCDD4803BFC /* Pods_GoliathNationalBankUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0C51750220BAA8E4006E6E1B /* GoliathNationalBankTests */,
 				0C51750D20BAA8E4006E6E1B /* GoliathNationalBankUITests */,
 				0C5174E920BAA8E4006E6E1B /* Products */,
+				B289C8F1CAF679C6F91EC291 /* Pods */,
+				355D01462E00A9672424293D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = GoliathNationalBankUITests;
 			sourceTree = "<group>";
 		};
+		355D01462E00A9672424293D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A31D5D5C366ED158F95F6B59 /* Pods_GoliathNationalBank.framework */,
+				9E1269791E12A2D6B4D6AF58 /* Pods_GoliathNationalBankTests.framework */,
+				21CD67D628E647CF624D1515 /* Pods_GoliathNationalBankUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B289C8F1CAF679C6F91EC291 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C709A743753B26AAE0084B2 /* Pods-GoliathNationalBank.debug.xcconfig */,
+				FC5EBBE633CCCD4661613A5C /* Pods-GoliathNationalBank.release.xcconfig */,
+				ACFCA920F6B97F6CF53A5FB6 /* Pods-GoliathNationalBankTests.debug.xcconfig */,
+				7FA2F8682AE4610FF899907A /* Pods-GoliathNationalBankTests.release.xcconfig */,
+				D9EF4EF8C9DD1817FD3ECA25 /* Pods-GoliathNationalBankUITests.debug.xcconfig */,
+				3984824E597656C4903F1017 /* Pods-GoliathNationalBankUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C51751320BAA8E5006E6E1B /* Build configuration list for PBXNativeTarget "GoliathNationalBank" */;
 			buildPhases = (
+				55BF8890E281698B1012ACEC /* [CP] Check Pods Manifest.lock */,
 				0C5174E420BAA8E4006E6E1B /* Sources */,
 				0C5174E520BAA8E4006E6E1B /* Frameworks */,
 				0C5174E620BAA8E4006E6E1B /* Resources */,
+				C14C73991D80B03E23880097 /* [CP] Embed Pods Frameworks */,
+				7D9AAD614230D1D2FD0D2745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C51751620BAA8E5006E6E1B /* Build configuration list for PBXNativeTarget "GoliathNationalBankTests" */;
 			buildPhases = (
+				7F6A1CD70B91D74261EFD7E8 /* [CP] Check Pods Manifest.lock */,
 				0C5174FB20BAA8E4006E6E1B /* Sources */,
 				0C5174FC20BAA8E4006E6E1B /* Frameworks */,
 				0C5174FD20BAA8E4006E6E1B /* Resources */,
+				A7F0229D5677955E3B34D6A5 /* [CP] Embed Pods Frameworks */,
+				42504E7F93DB696BA3BA229D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C51751920BAA8E5006E6E1B /* Build configuration list for PBXNativeTarget "GoliathNationalBankUITests" */;
 			buildPhases = (
+				005F6E21187DC2CF468DEB43 /* [CP] Check Pods Manifest.lock */,
 				0C51750620BAA8E4006E6E1B /* Sources */,
 				0C51750720BAA8E4006E6E1B /* Frameworks */,
 				0C51750820BAA8E4006E6E1B /* Resources */,
+				177EA59D143D1FCE44015238 /* [CP] Embed Pods Frameworks */,
+				3AC31AAC17B7B8E141C1D8AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005F6E21187DC2CF468DEB43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		177EA59D143D1FCE44015238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBankUITests/Pods-GoliathNationalBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AC31AAC17B7B8E141C1D8AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBankUITests/Pods-GoliathNationalBankUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42504E7F93DB696BA3BA229D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BF8890E281698B1012ACEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9AAD614230D1D2FD0D2745 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6A1CD70B91D74261EFD7E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F0229D5677955E3B34D6A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14C73991D80B03E23880097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C5174E420BAA8E4006E6E1B /* Sources */ = {
@@ -428,6 +627,7 @@
 		};
 		0C51751420BAA8E5006E6E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C709A743753B26AAE0084B2 /* Pods-GoliathNationalBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +643,7 @@
 		};
 		0C51751520BAA8E5006E6E1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5EBBE633CCCD4661613A5C /* Pods-GoliathNationalBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +659,7 @@
 		};
 		0C51751720BAA8E5006E6E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFCA920F6B97F6CF53A5FB6 /* Pods-GoliathNationalBankTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +677,7 @@
 		};
 		0C51751820BAA8E5006E6E1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA2F8682AE4610FF899907A /* Pods-GoliathNationalBankTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +695,7 @@
 		};
 		0C51751A20BAA8E5006E6E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9EF4EF8C9DD1817FD3ECA25 /* Pods-GoliathNationalBankUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +712,7 @@
 		};
 		0C51751B20BAA8E5006E6E1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3984824E597656C4903F1017 /* Pods-GoliathNationalBankUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
