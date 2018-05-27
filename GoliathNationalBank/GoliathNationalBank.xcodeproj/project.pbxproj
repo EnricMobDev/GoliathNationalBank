@@ -15,6 +15,13 @@
 		0C5174F920BAA8E4006E6E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5174F720BAA8E4006E6E1B /* LaunchScreen.storyboard */; };
 		0C51750420BAA8E4006E6E1B /* GoliathNationalBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51750320BAA8E4006E6E1B /* GoliathNationalBankTests.swift */; };
 		0C51750F20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51750E20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift */; };
+		0C51752B20BAB149006E6E1B /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51752A20BAB149006E6E1B /* TransactionList.swift */; };
+		0C51752D20BAB1B1006E6E1B /* TransactionPetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51752C20BAB1B1006E6E1B /* TransactionPetition.swift */; };
+		0C51752F20BAB2B2006E6E1B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51752E20BAB2B2006E6E1B /* Utils.swift */; };
+		0C51753120BAB3A5006E6E1B /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51753020BAB3A5006E6E1B /* TransactionController.swift */; };
+		0C51753320BAB646006E6E1B /* CurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51753220BAB646006E6E1B /* CurrencyList.swift */; };
+		0C51753520BAB6DA006E6E1B /* CurrencyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51753420BAB6DA006E6E1B /* CurrencyController.swift */; };
+		0C51753720BAB6F7006E6E1B /* CurrencyPetition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C51753620BAB6F7006E6E1B /* CurrencyPetition.swift */; };
 		69509DE41281637D8A8FFCDC /* Pods_GoliathNationalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1269791E12A2D6B4D6AF58 /* Pods_GoliathNationalBankTests.framework */; };
 		8A685F6098C72DCDD4803BFC /* Pods_GoliathNationalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CD67D628E647CF624D1515 /* Pods_GoliathNationalBankUITests.framework */; };
 		A304ABFEB64ADCB86746C802 /* Pods_GoliathNationalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31D5D5C366ED158F95F6B59 /* Pods_GoliathNationalBank.framework */; };
@@ -52,6 +59,13 @@
 		0C51750A20BAA8E4006E6E1B /* GoliathNationalBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoliathNationalBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C51750E20BAA8E4006E6E1B /* GoliathNationalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathNationalBankUITests.swift; sourceTree = "<group>"; };
 		0C51751020BAA8E5006E6E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C51752A20BAB149006E6E1B /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		0C51752C20BAB1B1006E6E1B /* TransactionPetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPetition.swift; sourceTree = "<group>"; };
+		0C51752E20BAB2B2006E6E1B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		0C51753020BAB3A5006E6E1B /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
+		0C51753220BAB646006E6E1B /* CurrencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyList.swift; sourceTree = "<group>"; };
+		0C51753420BAB6DA006E6E1B /* CurrencyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyController.swift; sourceTree = "<group>"; };
+		0C51753620BAB6F7006E6E1B /* CurrencyPetition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPetition.swift; sourceTree = "<group>"; };
 		21CD67D628E647CF624D1515 /* Pods_GoliathNationalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3984824E597656C4903F1017 /* Pods-GoliathNationalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBankUITests/Pods-GoliathNationalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C709A743753B26AAE0084B2 /* Pods-GoliathNationalBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +173,7 @@
 		0C51751D20BAAC45006E6E1B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0C51752E20BAB2B2006E6E1B /* Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -204,6 +219,8 @@
 		0C51752220BAACB9006E6E1B /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				0C51752C20BAB1B1006E6E1B /* TransactionPetition.swift */,
+				0C51753020BAB3A5006E6E1B /* TransactionController.swift */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -211,6 +228,8 @@
 		0C51752320BAACCE006E6E1B /* Currencies */ = {
 			isa = PBXGroup;
 			children = (
+				0C51753620BAB6F7006E6E1B /* CurrencyPetition.swift */,
+				0C51753420BAB6DA006E6E1B /* CurrencyController.swift */,
 			);
 			path = Currencies;
 			sourceTree = "<group>";
@@ -218,6 +237,7 @@
 		0C51752420BAACE5006E6E1B /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				0C51752A20BAB149006E6E1B /* TransactionList.swift */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -225,6 +245,7 @@
 		0C51752520BAACEF006E6E1B /* Currency */ = {
 			isa = PBXGroup;
 			children = (
+				0C51753220BAB646006E6E1B /* CurrencyList.swift */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -575,7 +596,14 @@
 			files = (
 				0C5174F420BAA8E4006E6E1B /* GoliathNationalBank.xcdatamodeld in Sources */,
 				0C5174EE20BAA8E4006E6E1B /* GoliathViewController.swift in Sources */,
+				0C51752B20BAB149006E6E1B /* TransactionList.swift in Sources */,
 				0C5174EC20BAA8E4006E6E1B /* AppDelegate.swift in Sources */,
+				0C51753320BAB646006E6E1B /* CurrencyList.swift in Sources */,
+				0C51753520BAB6DA006E6E1B /* CurrencyController.swift in Sources */,
+				0C51752D20BAB1B1006E6E1B /* TransactionPetition.swift in Sources */,
+				0C51752F20BAB2B2006E6E1B /* Utils.swift in Sources */,
+				0C51753720BAB6F7006E6E1B /* CurrencyPetition.swift in Sources */,
+				0C51753120BAB3A5006E6E1B /* TransactionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
